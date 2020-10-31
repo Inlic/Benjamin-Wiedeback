@@ -20,4 +20,5 @@ body{
   .devicon-git-plain, .devicon-github-plain, .devicon-express-original, .devicon-mysql-plain,
   .devicon-postgresql-plain, .devicon-vuejs-plain, .devicon-visualstudio-plain, .devicon-heroku-original{
   color: #4691f6;
+  font-size: 3em;
 }
