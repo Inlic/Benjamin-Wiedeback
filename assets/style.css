@@ -3,3 +3,21 @@ body{
   display: flex;
   flex-direction: column;
 }
+
+.background{
+  background-image: url("Construction.jpg");
+  background-attachment: fixed;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-grow: 1;
+}
+
+/* if you want to change the original color */
+.devicon-git-plain, .devicon-html5-plain, .devicon-css3-plain,
+ .devicon-bootstrap-plain, .devicon-javascript-plain,
+  .devicon-nodejs-plain, .devicon-csharp-plain, .devicon-dot-net-plain-wordmark,
+  .devicon-git-plain, .devicon-github-plain, .devicon-express-original, .devicon-mysql-plain,
+  .devicon-postgresql-plain, .devicon-vuejs-plain, .devicon-visualstudio-plain, .devicon-heroku-original{
+  color: #4691f6;
+}
