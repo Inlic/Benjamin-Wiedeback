@@ -4,21 +4,37 @@ body{
   flex-direction: column;
 }
 
-.background{
-  background-image: url("Construction.jpg");
+* {
+  box-sizing: border-box;
+}
+
+
+.parallax{
+  height: 100vh;
+  background-image: url("Forest-2.jpg");
   background-attachment: fixed;
-  background-position: center top;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  flex-grow: 1;
 }
+
+.header-profile{
+  position: absolute;
+  bottom: 10%;
+}
+
+.bg-greyish{
+  background-color:rgba(192,192,192,0.8);
+}
+
 
 /* if you want to change the original color */
 .devicon-git-plain, .devicon-html5-plain, .devicon-css3-plain,
  .devicon-bootstrap-plain, .devicon-javascript-plain,
-  .devicon-nodejs-plain, .devicon-csharp-plain, .devicon-dot-net-plain-wordmark,
+  .devicon-nodejs-plain, .devicon-csharp-plain, .devicon-dot-net-plain-wordmark, .devicon-python-plain-wordmark,
   .devicon-git-plain, .devicon-github-plain, .devicon-express-original, .devicon-mysql-plain,
-  .devicon-postgresql-plain, .devicon-vuejs-plain, .devicon-visualstudio-plain, .devicon-heroku-original{
+  .devicon-postgresql-plain, .devicon-vuejs-plain, .devicon-visualstudio-plain, .devicon-heroku-original,
+   .devicon-github-plain, .devicon-linkedin-plain, .fa-file-pdf{
   color: #4691f6;
   font-size: 3em;
 }
