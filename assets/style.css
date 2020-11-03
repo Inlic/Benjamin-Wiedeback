@@ -51,6 +51,10 @@ body{
   font-size: 3em;
 }
 
+.text-shadow{
+  text-shadow: 1px 1px grey;
+}
+
 .text-green{
   color: var(--green)
 }
