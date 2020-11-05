@@ -46,8 +46,7 @@ body{
   .devicon-nodejs-plain, .devicon-csharp-plain, .devicon-dot-net-plain-wordmark, .devicon-python-plain-wordmark,
   .devicon-git-plain, .devicon-github-plain, .devicon-express-original, .devicon-mysql-plain,
   .devicon-postgresql-plain, .devicon-vuejs-plain, .devicon-visualstudio-plain, .devicon-heroku-original,
-   .devicon-github-plain, .devicon-linkedin-plain, .fa-file-pdf{
-  color: var(--blue);
+   .devicon-github-plain, .devicon-linkedin-plain, .fa-file-pdf, .devicon-mongodb-plain{
   font-size: 3em;
 }
 
