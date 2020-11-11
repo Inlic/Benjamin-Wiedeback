@@ -10,14 +10,20 @@ Color Palette #3563
 --purple: #86759f; 
 }
 
+
 body{
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: rgb(251, 253, 255);
 }
 
 * {
   box-sizing: border-box;
+}
+
+h1, h3, h4{
+  font-family: 'Poppins';
 }
 
 
