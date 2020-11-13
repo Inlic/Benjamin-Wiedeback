@@ -26,6 +26,10 @@ h1, h3, h4{
   font-family: 'Poppins';
 }
 
+a{
+  cursor: pointer;
+  color: inherit;
+}
 
 .parallax{
   height: 100vh;
