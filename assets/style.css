@@ -60,6 +60,10 @@ a{
   font-size: 3em;
 }
 
+.app-icon{
+  font-size: 1em;
+}
+
 .text-shadow{
   text-shadow: 1px 1px grey;
 }
